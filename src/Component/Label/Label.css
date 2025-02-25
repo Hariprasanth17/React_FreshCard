@@ -1,0 +1,20 @@
+.label-container {
+    background-color: #F0F3F2;
+    font-size:14px ;
+    font-weight:500 ;
+    line-height:22px ;
+    color: #5C6C75;
+
+}
+
+.label .label-select select {
+    border: none;
+    background-color: #F0F3F2;
+    color: #5C6C75;
+    cursor: pointer;
+}
+@media screen and (max-width:460px){
+    .label-container{
+        font-size: 12px;
+    }
+}
