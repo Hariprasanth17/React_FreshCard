@@ -1,13 +1,13 @@
-import { ass_list } from "../../assets/assert"
+
 import "./ProductItem.css"
 
-const ProductItem = () => {
+const ProductItem = ({ image, category, name, d_price, price, offer, discount }: any) => {
     return (
         <div className="product-item-list">
             <div className="product-content rounded">
-                <img src={ass_list.Chicken_Fish} alt="product image" />
-                <div className="category text-muted">hello</div>
-                <div className="product-name">Fish Food</div>
+                <img src={image} alt="product image" />
+                <div className="category text-muted">{category}</div>
+                <div className="product-name">{name}</div>
                 <div className="star-icon d-flex gap-1 ">
                     <i className="bi bi-star-fill"></i>
                     <i className="bi bi-star-fill"></i>
@@ -18,8 +18,8 @@ const ProductItem = () => {
                 </div>
                 <div className="card-price-butt d-flex justify-content-between align-items-center mt-3">
                     <div className="product-price">
-                        <span className="text-dark mr-2">$35</span>
-                        <span className="text-decoration-line-through text-muted">$35</span>
+                        <span className="text-dark mr-2">${d_price}</span>
+                        <span className="text-decoration-line-through  text-muted">${price}</span>
                     </div>
                     <div className="add-butt">
                         <i className="bi bi-plus-lg"></i>
@@ -34,10 +34,10 @@ const ProductItem = () => {
             </div>
             <div className="offer-discount gap-3">
                 <div className="offer">
-                    <span className="badge rounded">Opening </span>
+                    <span className="badge rounded">{offer}</span>
                 </div>
                 <div className="discount">
-                    <span className="badge rounded">Sale 50%</span>
+                    <span className="badge rounded">{discount}</span>
                 </div>
             </div>
         </div>

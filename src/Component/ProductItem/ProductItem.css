@@ -1,22 +1,28 @@
 .product-item-list {
     height: 370px;
-    width: 260px;
-    background-color: aqua;
-    padding: 0px 8px;
+    width: 243px;
     position: relative;
 }
 
 .product-item-list .product-content {
     height: 370px;
     width: 243px;
-    border: 1px solid green;
+    border: 1px solid rgb(213, 207, 207);
+    transition: 0.3s;
     padding: 16px;
+}
+
+.product-item-list .product-content:hover {
+    border: 1px solid #0AAD0A;
+    scale: 1.02;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .product-item-list .product-content img {
     height: 211px;
     width: 211px;
     margin: 0px 0px 12px;
+    cursor: pointer;
 }
 
 .product-item-list .product-content .category {
@@ -24,6 +30,7 @@
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 4px;
+    cursor: pointer;
 }
 
 .product-item-list .product-content .product-name {
@@ -31,8 +38,11 @@
     font-weight: 600;
     line-height: 17px;
     margin-bottom: 8px;
+    cursor: pointer;
 }
-
+.product-item-list .product-content .product-name:hover{
+   color: #0AAD0A;
+}
 .product-item-list .product-content .star-icon {
     font-size: 12px;
     line-height: 20px;
@@ -45,7 +55,11 @@
     width: 60px;
     text-align: right;
     padding: 4px 8px;
-    background-color: #099309;
+    background-color: #0aad0a;
+}
+
+.product-item-list .product-content .card-price-butt a:hover {
+    background-color: #099209;
 }
 
 .product-item-list .product-content .card-price-butt i {
@@ -74,8 +88,8 @@
 .product-item-list .product-action-icon {
     width: 211px;
     position: absolute;
-    top: 170px;
-    left: 40px;
+    left: 72px;
+    top: 156px;
 }
 
 .product-item-list .product-action-icon .heart {
@@ -100,7 +114,8 @@
 /* top offer discount */
 .product-item-list .offer-discount {
     position: absolute;
-    top: 0px;
+    top: 13px;
+    left: 23px;
 }
 
 .product-item-list .offer-discount .offer span {

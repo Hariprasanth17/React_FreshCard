@@ -6,6 +6,7 @@ import Category from './Component/Category/Category'
 import Label from './Component/Label/Label'
 import Navbar from './Component/Navbar/Navbar'
 import Product from './Component/Product/Product'
+import Section from './Component/Section/Section'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       <Navbar />
       <Banner />
       <Category />
-      <Product/>
       <Bannertwo />
+      <Product />
+      <Section />
     </>
   )
 }

@@ -2,7 +2,7 @@
     height: 218px;
     width: 200px;
     border: 1px solid rgb(213, 207, 207);
-    transition: 0.6s;
+    transition: 0.3s;
 }
 
 .category-list-item:hover {

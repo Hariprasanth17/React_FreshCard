@@ -1,6 +1,8 @@
 import logo from "./freshcart-logo (1).svg";
 import slide_1 from "./slide-1.jpg";
 import slide_2 from "./slide-2.jpg";
+import banner_1 from "./grocery-banner.png"
+import banner_2 from "./grocery-banner-2.jpg"
 
 import Snack_Munchies from "./category-snack-munchies.jpg";
 import Backery_Biscuites from "./category-bakery-biscuits.jpg";
@@ -36,7 +38,9 @@ export const ass_list = {
     logo,
     slide_1,
     slide_2,
-    Chicken_Fish
+    banner_1,
+    banner_2,
+
 }
 
 export const category_list = [

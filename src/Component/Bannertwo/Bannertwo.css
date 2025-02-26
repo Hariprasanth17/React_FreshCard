@@ -1,0 +1,47 @@
+/* style={{
+    backgroundImage: 'url("/images/banner/grocery-banner.png")',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center center"
+  }} */
+
+.banner-two {
+    position: relative;
+}
+
+.banner-two .image img {
+    height: 209px;
+    width: 628px;
+}
+
+.banner-two .banner-tow-content {
+    position: absolute;
+    top: 42px;
+    left: 33px;
+}
+@media screen  and (max-width:1400px){
+    .banner-two .image img {
+        height: 209px;
+        width: 528px;
+    }
+}
+@media screen  and (max-width:1200px){
+    .banner-two .image img {
+        width: 428px;
+    }
+}
+@media screen  and (max-width:992px){
+    .banner-two .image img {
+        width: 328px;
+    }
+}
+@media screen  and (max-width:768px){
+    .banner-two .image img {
+        width: 528px;
+    }
+}
+@media screen  and (max-width:576px){
+    .banner-two .image img {
+        width: 100vw;
+    }
+}
