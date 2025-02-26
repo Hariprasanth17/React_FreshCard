@@ -1,8 +1,11 @@
- 
- .container-fluid{
-    height: 41px;
-    background-color:white;
+
+ .navbar {
+     background-color: white;
  }
+ .container-fluid {
+    height: 41px;
+
+}
  .container-fluid .navbar-brand button {
      background-color: #099209;
      width: 182px;
@@ -21,12 +24,13 @@
      color: white;
  }
 
- .container-fluid  ul {
+ .container-fluid ul {
      font-size: 15px;
      font-weight: 500;
      line-height: 22px;
-    
+
  }
- .container-fluid  ul .nav-item>a{
-color: rgb(44, 42, 42);
+
+ .container-fluid ul .nav-item>a {
+     color: rgb(44, 42, 42);
  }
