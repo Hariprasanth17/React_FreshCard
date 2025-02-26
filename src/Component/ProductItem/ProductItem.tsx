@@ -4,20 +4,40 @@ import "./ProductItem.css"
 const ProductItem = () => {
     return (
         <div className="product-item-list">
-            <div className="product-content">
+            <div className="product-content rounded">
                 <img src={ass_list.Chicken_Fish} alt="product image" />
                 <div className="category text-muted">hello</div>
                 <div className="product-name">Fish Food</div>
-                <div className="star-icon">
+                <div className="star-icon d-flex gap-1 ">
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-half"></i>
+                    <span className="text-muted">4.3 (5)</span>
                 </div>
-                <div className="d-flex justify-content-between align-items-center mt-3">
-                    <div>
-                        <span className="text-dark">$35 </span>
+                <div className="card-price-butt d-flex justify-content-between align-items-center mt-3">
+                    <div className="product-price">
+                        <span className="text-dark mr-2">$35</span>
                         <span className="text-decoration-line-through text-muted">$35</span>
                     </div>
-                    <div>
+                    <div className="add-butt">
+                        <i className="bi bi-plus-lg"></i>
                         <a role="button" href="#" className="btn btn-primary btn-sm btn btn-primary"> Add</a>
                     </div>
+                </div>
+            </div>
+            <div className="product-action-icon d-flex gap-1">
+                <div className="heart eye"><i className="bi bi-eye"></i></div>
+                <div className="heart"><i className="bi bi-heart"></i></div>
+                <div className="heart trans"><i className="bi bi-arrow-left-right"></i></div>
+            </div>
+            <div className="offer-discount gap-3">
+                <div className="offer">
+                    <span className="badge rounded">Opening </span>
+                </div>
+                <div className="discount">
+                    <span className="badge rounded">Sale 50%</span>
                 </div>
             </div>
         </div>

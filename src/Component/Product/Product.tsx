@@ -8,7 +8,11 @@ const Product = () => {
                 <div className="product-heading">
                     <h3 className="">Popular Products</h3>
                 </div>
-                <div className="product-list">
+                <div className="product-list d-flex">
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
                     <ProductItem />
                 </div>
             </div>

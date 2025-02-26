@@ -2,7 +2,8 @@
     height: 370px;
     width: 260px;
     background-color: aqua;
-    padding:0px 8px;
+    padding: 0px 8px;
+    position: relative;
 }
 
 .product-item-list .product-content {
@@ -11,13 +12,104 @@
     border: 1px solid green;
     padding: 16px;
 }
-.product-item-list .product-content img{
+
+.product-item-list .product-content img {
     height: 211px;
     width: 211px;
     margin: 0px 0px 12px;
 }
-.product-item-list .product-content .category{
+
+.product-item-list .product-content .category {
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.product-item-list .product-content .product-name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 8px;
+}
+
+.product-item-list .product-content .star-icon {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #FFC107;
+}
+
+.product-item-list .product-content .card-price-butt a {
+    height: 29px;
+    width: 60px;
+    text-align: right;
+    padding: 4px 8px;
+    background-color: #099309;
+}
+
+.product-item-list .product-content .card-price-butt i {
+    position: relative;
+    left: 23px;
+    top: 2px;
+    color: white;
+    font-size: 14px;
+}
+
+.product-item-list .product-content .product-price span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-right: 4px;
+}
+
+.product-item-list .product-content .add-butt a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+/* middle icon */
+.product-item-list .product-action-icon {
+    width: 211px;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.product-item-list .product-action-icon .heart {
+    height: 34px;
+    width: 34px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.product-item-list .product-action-icon .heart:hover {
+    color: white;
+    background-color: #0AAD0A;
+}
+
+/* top offer discount */
+.product-item-list .offer-discount {
+    position: absolute;
+    top: 0px;
+}
+
+.product-item-list .offer-discount .offer span {
+    background-color: #DB3030;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+}
+
+.product-item-list .offer-discount .discount span {
+    background-color: #198754;
 }
