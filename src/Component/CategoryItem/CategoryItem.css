@@ -1,0 +1,24 @@
+.category-list-item {
+    height: 218px;
+    width: 200px;
+    border: 1px solid rgb(213, 207, 207);
+    transition: 0.6s;
+}
+
+.category-list-item:hover {
+    border: 1px solid #0AAD0A;
+    scale: 1.02;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.category-list-item img {
+    height: 120px;
+    width: 120px;
+}
+
+.category-list-item .text-truncate {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(92, 108, 117);
+}

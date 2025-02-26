@@ -7,7 +7,7 @@
 
 }
  .container-fluid .navbar-brand button {
-     background-color: #099209;
+     background-color:#0AAD0A;
      width: 182px;
      height: 41px;
      font-size: 14px;
@@ -33,4 +33,10 @@
 
  .container-fluid ul .nav-item>a {
      color: rgb(44, 42, 42);
+ }
+ .container-fluid .navbar-brand button:hover {
+    background-color: #099209;
+ }
+ .container-fluid ul li>a:hover{
+    color: #099209;
  }

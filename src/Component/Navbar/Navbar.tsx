@@ -8,7 +8,7 @@ const Navbar = () => {
             <Searchbar />
             <div className="container">
 
-                <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+                <nav className="navbar navbar-expand-lg  ">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
                             <button type="button" id="dropdownMenuButton1" className=" btn btn-primary"> All Departments</button>

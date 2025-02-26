@@ -31,7 +31,7 @@ const Banner = () => {
                         <div className="carousel-item-content ps-lg-12 py-lg-16 py-14 px-8 text-start col-xxl-5 col-md-7 ">
                             <span className="badge rounded-pill bg-warning ">Free Shipping - orders over $100</span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                                Free Shipping on orders over <span className="text-primary">$100</span>
+                                Free Shipping on orders over <span className="text-price">$100</span>
                             </h2>
                             <p className="lead">
                                 Free Shipping to First-Time Customers Only, After promotions and discounts are applied.

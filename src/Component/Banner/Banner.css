@@ -25,11 +25,16 @@
     Color: rgb(92, 108, 117)
 }
 
+.carousel .carousel-inner .carousel-item .text-price {
+    color: #0AAD0A;
+}
+
 @media screen and (max-width:768px) {
     .carousel .carousel-inner .carousel-item .carousel-item-content {
         width: 400px;
     }
 }
+
 @media screen and (max-width:562px) {
     .carousel .carousel-inner .carousel-item .carousel-item-content {
         top: 51px;
@@ -47,7 +52,8 @@
     }
 
 }
-@media screen and (max-width:450px){
+
+@media screen and (max-width:450px) {
     .carousel .carousel-inner .carousel-item .carousel-item-content {
         width: 300px;
     }

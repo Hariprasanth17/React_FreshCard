@@ -1,0 +1,23 @@
+.product-item-list {
+    height: 370px;
+    width: 260px;
+    background-color: aqua;
+    padding:0px 8px;
+}
+
+.product-item-list .product-content {
+    height: 370px;
+    width: 243px;
+    border: 1px solid green;
+    padding: 16px;
+}
+.product-item-list .product-content img{
+    height: 211px;
+    width: 211px;
+    margin: 0px 0px 12px;
+}
+.product-item-list .product-content .category{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
