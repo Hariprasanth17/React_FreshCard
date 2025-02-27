@@ -16,6 +16,10 @@ import Pet_care from "./category-pet-care.jpg";
 import Vegetables_Fruits from "./category-fruits-vegetables.jpg";
 import cold_drinks from "./category-cold-drinks-juices.jpg";
 import Dairy_Bread_Eggs from "./category-dairy-bread-eggs.jpg";
+import sell_1 from "./sell-1.jpg";
+import sell_2 from "./sell-2.jpg";
+import sell_3 from "./sell-3.jpg";
+import sell_4 from "./sell-4.jpg";
 
 
 import product_1 from "./product-img-1.jpg";
@@ -40,9 +44,33 @@ export const ass_list = {
     slide_2,
     banner_1,
     banner_2,
+    sell_1,
+    sell_2,
 
 }
-
+export const sell_product =[
+    {
+        image:sell_2,
+        category: "Tea, Coffee & Drinks",
+        name: "Roast Ground Coffee",
+        disc_price: 13.5,
+        price: 18,
+    },
+    {
+        image:sell_3,
+        category: "Vegetables & Fruits",
+        name: "Creshed Tomatoes",
+        disc_price: 13.5,
+        price: 18,
+    },
+    {
+        image:sell_4,
+        category: "Vegetables & Fruits",
+        name: "Golden Pineapple",
+        disc_price: 14.4,
+        price: 18,
+    },
+]
 export const category_list = [
     {
         category_name: "Snack & Munchies",

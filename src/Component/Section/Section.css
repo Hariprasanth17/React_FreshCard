@@ -1,0 +1,23 @@
+.section-data i {
+    font-size: 32px;
+    color: #0aad0a;
+}
+
+.section-data .feature-icon {
+    margin-bottom: 24px;
+}
+
+.section-data h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 12px;
+
+}
+
+.section-data p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 16px;
+}

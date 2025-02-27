@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './Component/Banner/Banner'
 import Bannertwo from './Component/Bannertwo/Bannertwo'
 import Category from './Component/Category/Category'
+import Dailysell from './Component/Dailysell/Dailysell'
 import Label from './Component/Label/Label'
 import Navbar from './Component/Navbar/Navbar'
 import Product from './Component/Product/Product'
@@ -19,6 +20,7 @@ function App() {
       <Category />
       <Bannertwo />
       <Product />
+      <Dailysell />
       <Section />
     </>
   )

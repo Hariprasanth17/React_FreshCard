@@ -1,0 +1,151 @@
+.sell-product-list {
+    border: 1px solid rgb(213, 207, 207);
+    transition: 0.3s;
+    width: 310px;
+    height: inherit;
+    padding: 16px;
+    position: relative;
+}
+
+.sell-product-list:hover {
+    border: 1px solid #0AAD0A;
+    scale: 1.02;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.sell-product-list .sell-product-list-image img {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.sell-product-list .sell-category {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.sell-product-list .sell-product-name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+.sell-product-list .sell-product-name:hover {
+    color: #0AAD0A;
+}
+
+.sell-product-list .sell-price-rating {
+    height: 22.5px;
+}
+
+.sell-product-list .product-price {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.sell-product-list .product-price .disc-price {
+    margin-right: 5px;
+}
+
+.sell-product-list .sell-price-rating .star-icon {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #FFC107;
+}
+
+.sell-product-list .add-butt {
+    width: 100%;
+    position: relative;
+}
+
+.sell-product-list .add-butt i {
+    position: absolute;
+    top: 9px;
+    left: 89px;
+    color: white;
+}
+
+.sell-product-list .add-butt a {
+    width: 100%;
+    height: 41px;
+    padding: 8px 0px 0px 30px;
+    background-color: #0aad0a;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.sell-product-list .add-butt a:hover {
+    background-color: #099209;
+}
+
+.sell-product-list .sell-countdown div {
+    height: 61px;
+    width: 57px;
+    border: 1px solid rgb(213, 207, 207);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell-product-list .sell-countdown .countdown-value {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.sell-product-list .sell-countdown .rounded span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+/* miidle icon*/
+.sell-product-list .product-action-icon {
+    width: 211px;
+    position: absolute;
+    top: 162px;
+    left: 100px;
+}
+
+.sell-product-list .product-action-icon .heart {
+    height: 34px;
+    width: 34px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sell-product-list .product-action-icon .heart:hover {
+    color: white;
+    background-color: #0AAD0A;
+}
+
+
+@media screen and (max-width:1400px) {
+    .sell-product-list {
+        width: 250px;
+    }
+
+    .sell-product-list .product-action-icon {
+        left: 68px;
+    }
+
+    .sell-product-list .add-butt i {
+        left: 58px;
+    }
+}

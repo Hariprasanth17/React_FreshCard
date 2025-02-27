@@ -1,0 +1,61 @@
+.daily-sell {
+    height: 547px;
+}
+
+.daily-sell .daily-sell-heading h3 {
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.daily-sell .daily-sell-product .sell-banner {
+    height: 470px;
+    width: 310px;
+    position: relative;
+}
+
+.daily-sell .daily-sell-product .sell-banner img {
+    height: 100%;
+    width: 310px;
+}
+
+.daily-sell .daily-sell-product .sell-banner .sell-banner-text {
+    width: 246px;
+    position: absolute;
+    top: 38px;
+    left: 40px;
+}
+
+.daily-sell .daily-sell-product .sell-banner .sell-banner-text h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.daily-sell .daily-sell-product .sell-banner .sell-banner-text p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.daily-sell .daily-sell-product .sell-banner .sell-banner-text a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 41px;
+    width: 120px;
+    padding: 8px 0px 0px 10px;
+    background-color: #0aad0a;
+    color: white;
+}
+
+.daily-sell .daily-sell-product .sell-banner .sell-banner-text a:hover {
+    background-color: #099209;
+}
+
+@media screen and (max-width:1400px) {
+    .daily-sell {
+        overflow: auto;
+    }
+}
