@@ -11,7 +11,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg  ">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            <button type="button" id="dropdownMenuButton1" className=" btn btn-primary"> All Departments</button>
+                            <button type="button" id="dropdownMenuButton1" className=" btn"> All Departments</button>
                             <i className="bi bi-grid"></i>
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

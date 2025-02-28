@@ -3,6 +3,13 @@ import slide_1 from "./slide-1.jpg";
 import slide_2 from "./slide-2.jpg";
 import banner_1 from "./grocery-banner.png"
 import banner_2 from "./grocery-banner-2.jpg"
+import amazon from "./amazonpay.svg";
+import American from "./amazonpay.svg";
+import Mastercard from "./mastercard.svg";
+import paypol from "./paypal.svg";
+import visa from "./visa.svg";
+import appstore from "./appstore-btn.svg";
+import playstore from "./googleplay-btn.svg";
 
 import Snack_Munchies from "./category-snack-munchies.jpg";
 import Backery_Biscuites from "./category-bakery-biscuits.jpg";
@@ -46,25 +53,32 @@ export const ass_list = {
     banner_2,
     sell_1,
     sell_2,
+    amazon,
+    American,
+    Mastercard,
+    paypol,
+    visa,
+    appstore,
+    playstore,
 
 }
-export const sell_product =[
+export const sell_product = [
     {
-        image:sell_2,
+        image: sell_2,
         category: "Tea, Coffee & Drinks",
         name: "Roast Ground Coffee",
         disc_price: 13.5,
         price: 18,
     },
     {
-        image:sell_3,
+        image: sell_3,
         category: "Vegetables & Fruits",
         name: "Creshed Tomatoes",
         disc_price: 13.5,
         price: 18,
     },
     {
-        image:sell_4,
+        image: sell_4,
         category: "Vegetables & Fruits",
         name: "Golden Pineapple",
         disc_price: 14.4,

@@ -34,15 +34,15 @@ const DailysellList = ({ image, category, name, d_price, price }: any) => {
                 </div>
                 <div className="rounded hour">
                     <span className="countdown-value">9</span>
-                    <span className="text-muted">Days</span>
+                    <span className="text-muted">Hours</span>
                 </div>
                 <div className="rounded minute">
                     <span className="countdown-value">45</span>
-                    <span className="text-muted">Days</span>
+                    <span className="text-muted">Mins</span>
                 </div>
                 <div className="rounded second">
                     <span className="countdown-value">46</span>
-                    <span className="text-muted">Days</span>
+                    <span className="text-muted">Sec</span>
                 </div>
             </div>
             <div className="product-action-icon d-flex gap-1">

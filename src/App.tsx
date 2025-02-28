@@ -4,6 +4,7 @@ import Banner from './Component/Banner/Banner'
 import Bannertwo from './Component/Bannertwo/Bannertwo'
 import Category from './Component/Category/Category'
 import Dailysell from './Component/Dailysell/Dailysell'
+import Footer from './Component/Footer/Footer'
 import Label from './Component/Label/Label'
 import Navbar from './Component/Navbar/Navbar'
 import Product from './Component/Product/Product'
@@ -22,6 +23,8 @@ function App() {
       <Product />
       <Dailysell />
       <Section />
+      <Footer />
+      <Dailysell />
     </>
   )
 }

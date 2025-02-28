@@ -1,4 +1,3 @@
-import { ass_list } from "../../assets/assert"
 import "./CategoryItem.css"
 
 const CategoryItem = ({ Cname, Cimage }: any) => {

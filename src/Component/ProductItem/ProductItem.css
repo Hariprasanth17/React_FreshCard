@@ -34,7 +34,7 @@
 }
 
 .product-item-list .product-content .product-name {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 17px;
     margin-bottom: 8px;
@@ -81,6 +81,7 @@
     font-size: 12px;
     font-weight: 600;
     line-height: 20px;
+    color: white;
 }
 
 

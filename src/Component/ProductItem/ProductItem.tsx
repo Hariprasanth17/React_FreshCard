@@ -23,7 +23,7 @@ const ProductItem = ({ image, category, name, d_price, price, offer, discount }:
                     </div>
                     <div className="add-butt">
                         <i className="bi bi-plus-lg"></i>
-                        <a role="button" href="#" className="btn btn-primary btn-sm btn btn-primary"> Add</a>
+                        <a role="button" href="#" className="btn  btn-sm btn"> Add</a>
                     </div>
                 </div>
             </div>
