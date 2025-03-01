@@ -24,8 +24,9 @@ const DailysellList = ({ image, category, name, d_price, price }: any) => {
                 </div>
             </div>
             <div className="add-butt d-flex align-items-center mb-4">
-                <i className="bi bi-plus-lg"></i>
-                <a role="button" href="#" className="btn "> Add to Card</a>
+                <button className="btn ">
+                    <i className="bi bi-plus-lg"></i> Add to Card
+                </button>
             </div>
             <div className="sell-countdown d-flex flex-wrap justify-content-center gap-2">
                 <div className="rounded days">

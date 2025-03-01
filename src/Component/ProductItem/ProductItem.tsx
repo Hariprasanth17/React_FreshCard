@@ -22,8 +22,7 @@ const ProductItem = ({ image, category, name, d_price, price, offer, discount }:
                         <span className="text-decoration-line-through  text-muted">${price}</span>
                     </div>
                     <div className="add-butt">
-                        <i className="bi bi-plus-lg"></i>
-                        <a role="button" href="#" className="btn  btn-sm btn"> Add</a>
+                        <button className="btn  btn-sm btn"> <i className="bi bi-plus-lg"></i> Add</button>
                     </div>
                 </div>
             </div>

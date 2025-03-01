@@ -6,19 +6,27 @@
 }
 
 .buybutton i {
-    position: relative;
-    top: 1px;
-    left: 24px;
-    color: white;
-    font-size: 17px;
+  color: white;
+  font-size: 17px;
 }
 
 .buybutton button {
-    height: 47px;
-    width: 140px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
-    text-align: right;
-    padding:10px;
+  height: 47px;
+  width: 140px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: right;
+  padding: 10px;
+}
+@media screen and (max-width:768px) {
+  .buybutton button{
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+  }
+  
+.buybutton i{
+  font-size: 15px;
+}
 }

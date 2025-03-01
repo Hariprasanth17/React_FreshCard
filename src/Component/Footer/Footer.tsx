@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
-                <div className="footer-category d-flex my-4">
-                    <div className="category-content col-4 ">
+                <div className="footer-category d-flex flex-column flex-lg-row gap-3 my-4">
+                    <div className="category-content col-lg-4 col-12 ">
                         <h6>Categories</h6>
                         <div className="category-column d-flex ">
                             <div className="category-list text-decoration-none d-flex flex-column gap-2 col-6">
@@ -33,9 +33,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" col-8">
-                        <div className="four-category d-flex justify-content-between">
-                            <div className="first-category">
+                    <div className=" col-lg-8 col-12">
+                        <div className="four-category d-flex flex-wrap row-gap-3 justify-content-between">
+                            <div className="first-category col-md-6 col-lg-2 col-6"  >
                                 <h6>Get to know us</h6>
                                 <div className="first-category-list d-flex flex-column gap-2 ">
                                     <a href="#" className="text-decoration-none">Get to know us</a>
@@ -45,7 +45,7 @@ const Footer = () => {
                                     <a href="#" className="text-decoration-none">Our Value</a>
                                 </div>
                             </div>
-                            <div className="second-category">
+                            <div className="second-category  col-md-6 col-lg-2 col-6">
                                 <h6>Get to know us</h6>
                                 <div className="first-category-list  d-flex flex-column gap-2 ">
                                     <a href="#" className="text-decoration-none">Payments</a>
@@ -55,7 +55,8 @@ const Footer = () => {
                                     <a href="#" className="text-decoration-none">Shop Checkout</a>
                                 </div>
                             </div>
-                            <div className="third-category"> <h6>Get to know us</h6>
+                            <div className="third-category  col-md-6 col-lg-2 col-6">
+                                <h6>Get to know us</h6>
                                 <div className="first-category-list  d-flex flex-column gap-2">
                                     <a href="#" className="text-decoration-none">Shopper Opportunities</a>
                                     <a href="#" className="text-decoration-none">Become a Shopper  </a>
@@ -63,7 +64,8 @@ const Footer = () => {
                                     <a href="#" className="text-decoration-none">Ideas & Guides</a>
                                     <a href="#" className="text-decoration-none">New Retailers</a>
                                 </div></div>
-                            <div className="fourth-category"> <h6>Get to know us</h6>
+                            <div className="fourth-category  col-md-6 col-lg-2 col-6">
+                                <h6>Get to know us</h6>
                                 <div className="first-category-list  d-flex flex-column gap-2">
                                     <a href="#" className="text-decoration-none">Freshcart programs </a>
                                     <a href="#" className="text-decoration-none">Gift Cards</a>
@@ -77,8 +79,8 @@ const Footer = () => {
                 </div>
                 {/* Payment Partners Section and App   */}
                 <div className="footer-payment-app">
-                    <div className="border-top  border-bottom py-3 d-flex justify-content-between align-items-center">
-                        <div className="text-lg-start text-center mb-2 mb-lg-0 col-lg-5">
+                    <div className="border-top  border-bottom py-3 d-flex justify-content-lg-between  flex-column flex-lg-row  align-items-center">
+                        <div className="text-lg-start text-center mb-lg-2 mb-lg-0">
                             <ul className="mb-0 list-inline">
                                 <h5 className="text-dark list-inline-item">Payment Partners</h5>
                                 <li className="list-inline-item">
@@ -98,39 +100,38 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="mt-4 mt-md-0 col-lg-7 d-flex justify-content-end align-items-center gap-3">
+                        <div className=" mt-md-0 col-lg-7 d-flex flex-lg-row flex-column justify-content-end align-items-center gap-lg-3">
                             <h5 className="list-inline-item mb-2 mb-md-0 text-dark">Get deliveries with FreshCart</h5>
-                            <a href="#" target="_blank">
-                                <img src={ass_list.appstore} alt="Download on the App Store" className="" />
-                            </a>
-                            <a href="#" target="_blank">
-                                <img src={ass_list.playstore} alt="Get it on Google Play" className="" />
-                            </a>
+                            <div className=" d-flex gap-2">
+                                <a href="#" target="_blank">
+                                    <img src={ass_list.appstore} alt="Download on the App Store" className="" />
+                                </a>
+                                <a href="#" target="_blank">
+                                    <img src={ass_list.playstore} alt="Get it on Google Play" className="" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 {/* footer-rights-socialmedia */}
-                <div className="footer-rights-socialmedia py-3 ">
-                    <div className="footer-info-row  d-flex flex-wrap ">
-                        <div className="footer-info">
-                            <span className="footer-text small ">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by
-                                <a target="_blank" className="text-decoration-none" href="#"> Codescandy</a>.
-                            </span>
-                        </div>
-                        <div className="footer-social col-6 col-md-12  d-flex justify-content-end justify-content-md-start mt-md-2">
-                            <div className="social-list  d-flex  align-items-center">
-                                <div className="social-title list-inline-item ">Follow us on</div>
-                                <a className="social-link list-inline-item btn btn-xs" href="#">
-                                    <i className="bi bi-facebook"></i>
-                                </a>
-                                <a className="social-link btn btn-xs list-inline-item" href="#">
-                                    <i className="bi bi-twitter"></i>
-                                </a>
-                                <a className="social-link list-inline-item btn btn-xs" href="#">
-                                    <i className="bi bi-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
+                <div className="footer-rights-socialmedia flex-wrap d-flex flex-md-column flex-lg-row align-items-center  justify-content-md-start  justify-content-lg-between  py-3 ">
+                    <div className="footer-info">
+                        <span className="footer-text small ">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by
+                            <a target="_blank" className="text-decoration-none" href="#"> Codescandy</a>.
+                        </span>
+                    </div>
+
+                    <div className="social-list  d-flex gap-2 align-items-center">
+                        <div className="social-title ">Follow us on</div>
+                        <a className="social-link  btn btn-xs" href="#">
+                            <i className="bi bi-facebook"></i>
+                        </a>
+                        <a className="social-link btn btn-xs" href="#">
+                            <i className="bi bi-twitter"></i>
+                        </a>
+                        <a className="social-link  btn btn-xs" href="#">
+                            <i className="bi bi-instagram"></i>
+                        </a>
                     </div>
                 </div>
             </div>
