@@ -2,7 +2,6 @@
     border: 1px solid rgb(213, 207, 207);
     transition: 0.3s;
     width: 310px;
-    height: inherit;
     padding: 16px;
     position: relative;
 }
@@ -15,6 +14,8 @@
 
 .sell-product-list .sell-product-list-image img {
     margin-bottom: 12px;
+    height: 220px;
+    width: 220px;
     cursor: pointer;
 }
 
@@ -137,9 +138,7 @@
 
 
 @media screen and (max-width:1400px) {
-    .sell-product-list {
-        width: 250px;
-    }
+
 
     .sell-product-list .product-action-icon {
         left: 68px;

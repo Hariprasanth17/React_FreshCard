@@ -3,7 +3,7 @@ import "./DailysellList.css"
 
 const DailysellList = ({ image, category, name, d_price, price }: any) => {
     return (
-        <div className="sell-product-list rounded">
+        <div className="sell-product-list rounded ">
             <div className="sell-product-list-image d-flex justify-content-center">
                 <img src={image} alt="product image" />
             </div>

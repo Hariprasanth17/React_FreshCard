@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="category-content col-4 ">
                         <h6>Categories</h6>
                         <div className="category-column d-flex ">
-                            <div className="category-list text-decoration-none d-flex flex-column col-6">
+                            <div className="category-list text-decoration-none d-flex flex-column gap-2 col-6">
                                 <a href="#" className="text-decoration-none">Vegetables & Fruits </a>
                                 <a href="#" className="text-decoration-none">Breakfast & instant food </a>
                                 <a href="#" className="text-decoration-none"> Bakery & Biscuits</a>
@@ -20,8 +20,8 @@ const Footer = () => {
                                 <a href="#" className="text-decoration-none"> Cleaning essentials </a>
                                 <a href="#" className="text-decoration-none"> Personal care </a>
                             </div>
-                            <div className="category-list d-flex flex-column col-6">
-                                <a href="#" className="text-decoration-none"> Dairy, bread & eggs </a>
+                            <div className="category-list d-flex flex-column col-6 gap-2 ">
+                                <a href="#" className="text-decoration-none text-muted"> Dairy, bread & eggs </a>
                                 <a href="#" className="text-decoration-none">Cold drinks & juices </a>
                                 <a href="#" className="text-decoration-none">Tea, coffee & drinks </a>
                                 <a href="#" className="text-decoration-none">Masala, oil & more </a>
@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className="four-category d-flex justify-content-between">
                             <div className="first-category">
                                 <h6>Get to know us</h6>
-                                <div className="first-category-list d-flex flex-column">
+                                <div className="first-category-list d-flex flex-column gap-2 ">
                                     <a href="#" className="text-decoration-none">Get to know us</a>
                                     <a href="#" className="text-decoration-none">Company</a>
                                     <a href="#" className="text-decoration-none">About</a>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </div>
                             <div className="second-category">
                                 <h6>Get to know us</h6>
-                                <div className="first-category-list  d-flex flex-column">
+                                <div className="first-category-list  d-flex flex-column gap-2 ">
                                     <a href="#" className="text-decoration-none">Payments</a>
                                     <a href="#" className="text-decoration-none">Shipping</a>
                                     <a href="#" className="text-decoration-none">Product Returns</a>
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="third-category"> <h6>Get to know us</h6>
-                                <div className="first-category-list  d-flex flex-column">
+                                <div className="first-category-list  d-flex flex-column gap-2">
                                     <a href="#" className="text-decoration-none">Shopper Opportunities</a>
                                     <a href="#" className="text-decoration-none">Become a Shopper  </a>
                                     <a href="#" className="text-decoration-none">Earnings</a>
@@ -64,7 +64,7 @@ const Footer = () => {
                                     <a href="#" className="text-decoration-none">New Retailers</a>
                                 </div></div>
                             <div className="fourth-category"> <h6>Get to know us</h6>
-                                <div className="first-category-list  d-flex flex-column">
+                                <div className="first-category-list  d-flex flex-column gap-2">
                                     <a href="#" className="text-decoration-none">Freshcart programs </a>
                                     <a href="#" className="text-decoration-none">Gift Cards</a>
                                     <a href="#" className="text-decoration-none">Promos & Coupons </a>
@@ -80,7 +80,7 @@ const Footer = () => {
                     <div className="border-top  border-bottom py-3 d-flex justify-content-between align-items-center">
                         <div className="text-lg-start text-center mb-2 mb-lg-0 col-lg-5">
                             <ul className="mb-0 list-inline">
-                                <li className="text-dark list-inline-item">Payment Partners</li>
+                                <h5 className="text-dark list-inline-item">Payment Partners</h5>
                                 <li className="list-inline-item">
                                     <a href="#"><img src={ass_list.amazon} alt="Amazon Pay" className="" /></a>
                                 </li>
@@ -98,8 +98,8 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="mt-4 mt-md-0 col-lg-7 d-flex justify-content-end align-items-center">
-                            <div className="list-inline-item mb-2 mb-md-0 text-dark">Get deliveries with FreshCart</div>
+                        <div className="mt-4 mt-md-0 col-lg-7 d-flex justify-content-end align-items-center gap-3">
+                            <h5 className="list-inline-item mb-2 mb-md-0 text-dark">Get deliveries with FreshCart</h5>
                             <a href="#" target="_blank">
                                 <img src={ass_list.appstore} alt="Download on the App Store" className="" />
                             </a>
@@ -110,32 +110,26 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* footer-rights-socialmedia */}
-                <div className="footer-rights-socialmedia">
-                    <div className="footer-info-row align-items-center row mt-4">
-                        <div className="footer-info col-md-6">
-                            <span className="footer-text small text-muted">© 2022 <span id="copyright">- 2025</span> FreshCart eCommerce HTML Template. All rights reserved. Powered by
-                                <a target="_blank" href="#"> Codescandy</a>.
+                <div className="footer-rights-socialmedia py-3 ">
+                    <div className="footer-info-row  d-flex flex-wrap ">
+                        <div className="footer-info">
+                            <span className="footer-text small ">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by
+                                <a target="_blank" className="text-decoration-none" href="#"> Codescandy</a>.
                             </span>
                         </div>
-                        <div className="footer-social col-md-6">
-                            <ul className="social-list list-inline text-md-end mb-0 small mt-3 mt-md-0">
-                                <li className="social-title list-inline-item text-muted">Follow us on</li>
-                                <li className="social-item me-2 list-inline-item">
-                                    <a className="social-link btn btn-xs btn-social btn-icon" href="#">
-                                        <i className="bi bi-facebook"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item me-2 list-inline-item">
-                                    <a className="social-link btn btn-xs btn-social btn-icon" href="#">
-                                        <i className="bi bi-twitter"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item me-2 list-inline-item">
-                                    <a className="social-link btn btn-xs btn-social btn-icon" href="#">
-                                        <i className="bi bi-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div className="footer-social col-6 col-md-12  d-flex justify-content-end justify-content-md-start mt-md-2">
+                            <div className="social-list  d-flex  align-items-center">
+                                <div className="social-title list-inline-item ">Follow us on</div>
+                                <a className="social-link list-inline-item btn btn-xs" href="#">
+                                    <i className="bi bi-facebook"></i>
+                                </a>
+                                <a className="social-link btn btn-xs list-inline-item" href="#">
+                                    <i className="bi bi-twitter"></i>
+                                </a>
+                                <a className="social-link list-inline-item btn btn-xs" href="#">
+                                    <i className="bi bi-instagram"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

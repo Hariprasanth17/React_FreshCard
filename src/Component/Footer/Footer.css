@@ -2,3 +2,67 @@
     padding: 64px 0px;
     background-color: #F0F3F2;
 }
+
+.footer-category h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 14px;
+}
+
+.footer-category a {
+    color: #5C6C75;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.footer-category a:hover {
+    color: #0AAD0A
+}
+
+
+
+/* footer-payment-app */
+.footer-payment-app h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+/* footer-rights-socialmedia */
+.footer-rights-socialmedia span,
+.footer-social div .social-title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #a3a7ad;
+}
+
+.footer-rights-socialmedia .footer-info span>a {
+    color: #0AAD0A;
+}
+
+.footer-rights-socialmedia .footer-info span>a:hover {
+    color: #0f9c0f;
+}
+
+.footer-rights-socialmedia .social-list a {
+    border: 1px solid #a3a7ad;
+    color: #a3a7ad;
+}
+
+.footer-rights-socialmedia .social-list a:hover {
+    color: #0AAD0A;
+    border: 1px solid #0AAD0A;
+}
+
+@media screen and (max-width:768px) {
+
+    .footer-social {
+        background-color: #0AAD0A;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
