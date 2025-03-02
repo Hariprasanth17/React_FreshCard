@@ -21,7 +21,7 @@ const Footer = () => {
                                 <a href="#" className="text-decoration-none"> Personal care </a>
                             </div>
                             <div className="category-list d-flex flex-column col-6 gap-2 ">
-                                <a href="#" className="text-decoration-none text-muted"> Dairy, bread & eggs </a>
+                                <a href="#" className="text-decoration-none "> Dairy, bread & eggs </a>
                                 <a href="#" className="text-decoration-none">Cold drinks & juices </a>
                                 <a href="#" className="text-decoration-none">Tea, coffee & drinks </a>
                                 <a href="#" className="text-decoration-none">Masala, oil & more </a>

@@ -5,7 +5,9 @@
     padding: 16px;
     position: relative;
 }
-
+.sell-prod{
+    width: 310px;
+}
 .sell-product-list:hover {
     border: 1px solid #0AAD0A;
     scale: 1.02;
@@ -123,15 +125,3 @@
     background-color: #0AAD0A;
 }
 
-
-@media screen and (max-width:1400px) {
-
-
-    .sell-product-list .product-action-icon {
-        left: 68px;
-    }
-
-    .sell-product-list .add-butt i {
-        left: 58px;
-    }
-}
